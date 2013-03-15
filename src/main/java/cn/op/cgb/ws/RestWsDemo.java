@@ -17,7 +17,9 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 import org.apache.log4j.Logger;
+import org.springframework.stereotype.Component;
 
+@Component
 @Path("/students")
 @Produces({MediaType.APPLICATION_JSON })
 public class RestWsDemo {
